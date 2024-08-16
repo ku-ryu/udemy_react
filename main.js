@@ -36,8 +36,14 @@
 // val5.push("monkey");
 // console.log(val5);
 
-const name = "kryu"
-const age = 20
+// const name = "kryu"
+// const age = 20
 
-const message = `私の名前は${name}です。年齢は${age}`
-console.log(message)
+// const message = `私の名前は${name}です。年齢は${age}`
+// console.log(message)
+
+// const func = str => str
+// console.log(func("funcvv"))
+
+const func = str => `I am ${str}`
+console.log(func("kryu"))

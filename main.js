@@ -69,3 +69,16 @@
 
 // const message4 = `名前は${name}です。年齢は${age}です`
 // console.log(message4)
+
+// const sayHello = (name = 'guest') => console.log(`こんにちは${name}さん`)
+
+// sayHello()
+
+// const myProfile = {
+//     age : 24
+// }
+
+// const { age, name = 'guest'} = myProfile
+// console.log(age)
+// console.log(name)
+

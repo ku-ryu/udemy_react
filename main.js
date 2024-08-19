@@ -100,9 +100,59 @@
 // console.log(num2)
 // console.log(arr3)
 
-const arr4 = [10, 20]
-const arr5 = [30, 40]
+// const arr4 = [10, 20]
+// const arr5 = [30, 40]
 
-const arr6 = [...arr4]
-const arr7 = [...arr4, ...arr5]
-console.log(arr7)
+// const arr6 = [...arr4]
+// const arr7 = [...arr4, ...arr5]
+// console.log(arr7)
+
+const nameArr = ['kryu', 'yamada', 'satou']
+// const nameArr2 = nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です`) )
+
+// console.log(nameArr2)
+
+// const numArr = [1, 2, 3, 4, 5]
+// const newNumArr = numArr.filter((num) => {
+//     return num % 2 === 1;
+// })
+// console.log(newNumArr)
+
+// const nameArr3 = nameArr.map((name, index) => 
+// {
+//     if (name === 'kryu') {
+//         console.log(`${index + 1}番目は${name}です`)
+//     } else {
+//         console.log(`${index + 1}番目は${name}さんです`)
+//     }
+// })
+
+// const val = 1 > 0 ? 'ture' : 'false'
+// console.log(val)
+
+// const num = '1300'
+// console.log(num.toLocaleString())
+
+// const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値を入力してください'
+
+// const checkSum = (num1, num2) => {
+//     return num1 + num2 > 100 ? '100を超えています' : '許容範囲内です'
+// }
+// console.log(checkSum(40, 90))
+
+// const val = {}
+// if (val) {
+//     console.log('val is truthy')
+// } else {
+//     console.log('val is falsy')
+// }
+
+// || は左側がtruthyのときその時点で返却する
+const num = 1000
+const fee = num || '金額未設定です'
+console.log(fee)
+
+// &&は左側がfalsyのときその時点で返却する
+const num2 = null
+const fee2 = num2 && '何か設定されました'
+console.log(fee2)
